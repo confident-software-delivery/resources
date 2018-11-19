@@ -6,47 +6,55 @@ I'm the living repository provided as companion material to the workshop “Conf
 
 ## Software Delivery: the jargon
 
-### FAQ: CI/CD?
+### FAQ: Continuous Integration vs Continuous Delivery vs Continuous Deployment
 
-- Continuous integration (CI)
-  “Development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.“
-  From: https://www.thoughtworks.com/continuous-integration
+- Continuous Integration (CI)
 
-- Continuous delivery
-  “Software development discipline where you build software in such a way that it can be released to production at any time.“
-  From https://martinfowler.com/bliki/ContinuousDelivery.html
+  > “Development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.“
 
-- Continuous deployment
-  Continuous Delivery is sometimes confused with Continuous Deployment. Continuous Deployment means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day. Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment. In order to do Continuous Deployment you must be doing Continuous Delivery.
-  From https://martinfowler.com/bliki/ContinuousDelivery.html
+  \+ info @ https://www.thoughtworks.com/continuous-integration
 
-Besides the key differences between them, they all have something they need to exist: automation.
+- Continuous Delivery (CD)
 
-If this common confusion and small nuances weren't enough, this workshop leverages GitLab CI/CD. Hmm, CD? As in Continuous Delivery or as in Continuous Deployment?
+  > “Software development discipline where you build software in such a way that it can be released to production at any time.“
+
+  \+ info @ https://martinfowler.com/bliki/ContinuousDelivery.html
+
+- Continuous Deployment
+
+  > Sometimes confused with Continuous Delivery, it means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day.
+
+  > Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment.
+
+  \+ info @ https://martinfowler.com/bliki/ContinuousDelivery.html
+
+Besides the key differences between them, they all have something they need to exist: **automation**.
+
+Note that this hands-on workshop leverages the so-called GitLab Continuous Integration (GitLab CI/CD), which is the built-in Continuous Integration, Continuous Deployment, and Continuous Delivery support to build, test, and deploy your application offered by GitLab.
 
 ### Deployment pipeline
 
-Martin Fowler took some time on May 2013 (https://martinfowler.com/bliki/DeploymentPipeline.html) to document the concept of Deployment Pipeline as a way to deal with one of the challenges of an automated build and test environment: you want your build to be fast, so that you can get fast feedback, but comprehensive tests take a long time to run.
+Martin Fowler took some time on May 2013 to document the [concept of Deployment Pipeline](<(https://martinfowler.com/bliki/DeploymentPipeline.html)>) as a way to deal with one of the challenges of an automated build and test environment: you want your build to be fast, so that you can get fast feedback, but comprehensive tests take a long time to run.
 
 A deployment pipeline allows this by breaking up the build into stages. Each stage provides increasing confidence, usually at the cost of extra time. Early stages can find most problems yielding faster feedback, while later stages provide slower and more through probing.
 
-Please note that since Martin Fowler hasn't updated the article lately, it doesn't reflect the current state of the art anymore. As frequently highlighted in ”Accelerate”, note that top (software delivery) performers are the ones who manage to improve more, and faster.
+Please note that since Martin Fowler hasn't updated the article lately, it doesn't reflect the current state of the art anymore. As frequently highlighted in ”Accelerate. The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations”, note that top (software delivery) performers are the ones who manage to improve more, and faster.
 
 ### GitLab CI/CD
 
 #### Core concepts
 
-A (deployment) `pipeline` consists of groups of **jobs** that get executed in **stages** (batches).
+A (deployment) **pipeline** consists of groups of **jobs** that get executed in **stages** (batches).
 
 [**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
 
 [**Jobs**](https://docs.gitlab.com/ee/ci/yaml/README.html#jobs) run independently from each other and are executed within the environment of a so-called _Runner_.
 
-#### How to set up a pipeline?
+#### How to set up a pipeline in your GitLab project?
 
-A `.gitlab-ci.yml` file must be placed at the root of your repository to specify how the project should be built.
+All what you need is a `.gitlab-ci.yml` file mplaced at the root of your repository to specify how the project should be built.
 
-Not sure what are we talking about? You might wanna check some of the linked learning resources below.
+What should you include there? Time to deep into some of the resources below.
 
 #### Related GitLab documentation
 
