@@ -70,3 +70,15 @@ Additionally, it might be worth reading:
 
 - [Job artifacts](https://docs.gitlab.com/ee/user/project/pipelines/job_artifacts.html)
 - [Run jobs sequentially, in parallel or build a custom pipeline](https://about.gitlab.com/2016/07/29/the-basics-of-gitlab-ci/)
+
+## Workshop design & facilitation
+
+This workshop has been designed to leverage the power of [Liberating Structures](http://www.liberatingstructures.com/), which can be defined as:
+
+> Simple rules that make it easy to include and unleash everyone in shaping the future
+
+Here you can find more information about specific structures we have used so far:
+
+- [Impromptu Networking](http://www.liberatingstructures.com/2-impromptu-networking/)
+- [TRIZ](http://www.liberatingstructures.com/6-making-space-with-triz/) mixed with [1-2-4-All](http://www.liberatingstructures.com/1-1-2-4-all/)
+- [Troika Consulting](http://www.liberatingstructures.com/8-troika-consulting/) mixed with [Wise Crowds](http://www.liberatingstructures.com/13-wise-crowds/)
