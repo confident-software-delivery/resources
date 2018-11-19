@@ -4,6 +4,8 @@ I'm the living repository provided as companion material to the workshop “Conf
 
 - [Agile Testing Days 2018](https://agiletestingdays.com/2018/session/confident-software-delivery/) @ Berlin (November 13th, 2018).
 
+Crafted with ❤️ by @sergioalvz & @dcarral
+
 ## Software Delivery: the jargon
 
 ### FAQ: Continuous Integration vs Continuous Delivery vs Continuous Deployment
