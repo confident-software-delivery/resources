@@ -44,19 +44,19 @@ Please note that since Martin Fowler hasn't updated the article lately, it doesn
 
 ### GitLab CI/CD
 
-#### Core concepts
+#### Core concepts: stages & jobs
 
 A (deployment) **pipeline** consists of groups of **jobs** that get executed in **stages** (batches).
 
-[**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
+- [**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
 
-[**Jobs**](https://docs.gitlab.com/ee/ci/yaml/README.html#jobs) run independently from each other and are executed within the environment of a so-called _Runner_.
+- [**Jobs**](https://docs.gitlab.com/ee/ci/yaml/README.html#jobs) run independently from each other and are executed within the environment of a so-called _Runner_.
 
 #### How to set up a pipeline in your GitLab project?
 
-All what you need is a `.gitlab-ci.yml` file mplaced at the root of your repository to specify how the project should be built.
+All what you need is a `.gitlab-ci.yml` file placed at the root directory of your repository to specify how the project should be built.
 
-What should you include there? Time to deep into some of the resources below.
+What should you include there? Time to dive into some of the resources below.
 
 #### Related GitLab documentation
 
