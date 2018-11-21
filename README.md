@@ -6,9 +6,26 @@ I'm the living repository provided as companion material to the workshop “Conf
 
 Crafted with ❤️ by @sergioalvz & @dcarral
 
-## Software Delivery: the jargon
+## Table of contents
 
-### FAQ: Continuous Integration vs Continuous Delivery vs Continuous Deployment
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Confident Software Delivery](#confident-software-delivery)
+	- [Table of contents](#table-of-contents)
+	- [Software delivery jargon](#software-delivery-jargon)
+		- [Continuous Integration vs Continuous Delivery vs Continuous Deployment](#continuous-integration-vs-continuous-delivery-vs-continuous-deployment)
+		- [Deployment pipeline](#deployment-pipeline)
+	- [GitLab CI/CD](#gitlab-cicd)
+		- [Core concepts: jobs & stages](#core-concepts-jobs-stages)
+		- [How to set up a pipeline in your GitLab project?](#how-to-set-up-a-pipeline-in-your-gitlab-project)
+		- [Related GitLab documentation](#related-gitlab-documentation)
+	- [Workshop design & facilitation](#workshop-design-facilitation)
+
+<!-- /TOC -->
+
+## Software delivery jargon
+
+### Continuous Integration vs Continuous Delivery vs Continuous Deployment
 
 - Continuous Integration (CI)
 
@@ -42,23 +59,23 @@ A deployment pipeline allows this by breaking up the build into stages. Each sta
 
 Please note that since Martin Fowler hasn't updated the article lately, it doesn't reflect the current state of the art anymore. As frequently highlighted in ”Accelerate. The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations”, note that top (software delivery) performers are the ones who manage to improve more, and faster.
 
-### GitLab CI/CD
+## GitLab CI/CD
 
-#### Core concepts: stages & jobs
+### Core concepts: jobs & stages
 
 A (deployment) **pipeline** consists of groups of **jobs** that get executed in **stages** (batches).
 
-- [**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
-
 - [**Jobs**](https://docs.gitlab.com/ee/ci/yaml/README.html#jobs) run independently from each other and are executed within the environment of a so-called _Runner_.
 
-#### How to set up a pipeline in your GitLab project?
+- [**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
+
+### How to set up a pipeline in your GitLab project?
 
 All what you need is a `.gitlab-ci.yml` file placed at the root directory of your repository to specify how the project should be built.
 
 What should you include there? Time to dive into some of the resources below.
 
-#### Related GitLab documentation
+### Related GitLab documentation
 
 Here we have cherry-picked some articles from the [GitLab CI/CD docs](https://docs.gitlab.com/ee/ci/README.html):
 
