@@ -1,4 +1,4 @@
-# Confident Software Delivery
+# Workshop: Confident Software Delivery
 
 I'm the living repository provided as companion material to the workshop “Confident Software Delivery”, so far facilitated at:
 
@@ -10,9 +10,13 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Confident Software Delivery](#confident-software-delivery)
+- [Workshop: Confident Software Delivery](#workshop-confident-software-delivery)
 	- [Table of contents](#table-of-contents)
-	- [Software delivery jargon](#software-delivery-jargon)
+	- [Introduction to Software Delivery](#introduction-to-software-delivery)
+		- [What do we mean?](#what-do-we-mean)
+		- [Room for improvement](#room-for-improvement)
+		- [Measuring performance](#measuring-performance)
+	- [Software delivery: the jargon](#software-delivery-the-jargon)
 		- [Continuous Integration vs Continuous Delivery vs Continuous Deployment](#continuous-integration-vs-continuous-delivery-vs-continuous-deployment)
 		- [Deployment pipeline](#deployment-pipeline)
 	- [GitLab CI/CD](#gitlab-cicd)
@@ -26,7 +30,30 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 
 <!-- /TOC -->
 
-## Software delivery jargon
+## Introduction to Software Delivery
+
+### What do we mean? 
+
+After the release of the book *Accelerate* in 2018, we can assert with confidence that high IT performance correlates with strong business performance, helping to boost productivity, profitability, and market share.
+
+In *Accelerate*'s foreword, Martin Fowler defines IT delivery as: “**the journey from commit to production**, not the entire software development process”.
+
+### Room for improvement
+
+According to the authors of *Accelerate*:
+
+> The moral of the story, is this: **improvements in software delivery are possible for every team and in every company**, as long as leadership provides consistent support -including time, actions and resources- demonstrating a true commitment to improvement, and as long as team members commit themselves to work.
+
+### Measuring performance
+
+In their search for measures of delivery performance, they have settled on four:
+
+- Delivery lead time
+- Deployment frequency
+- Time to restore service
+- Change fail rate
+
+## Software delivery: the jargon
 
 ### Continuous Integration vs Continuous Delivery vs Continuous Deployment
 
@@ -52,8 +79,6 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 
 Besides the key differences between them, they all have something they need to exist: **automation**.
 
-Note that this hands-on workshop leverages the so-called GitLab Continuous Integration (GitLab CI/CD), which is the built-in Continuous Integration, Continuous Deployment, and Continuous Delivery support to build, test, and deploy your application offered by GitLab.
-
 ### Deployment pipeline
 
 Martin Fowler took some time on May 2013 to document the [concept of Deployment Pipeline](<(https://martinfowler.com/bliki/DeploymentPipeline.html)>) as a way to deal with one of the challenges of an automated build and test environment: you want your build to be fast, so that you can get fast feedback, but comprehensive tests take a long time to run.
@@ -63,6 +88,8 @@ A deployment pipeline allows this by breaking up the build into stages. Each sta
 Please note that since Martin Fowler hasn't updated the article lately, it doesn't reflect the current state of the art anymore. As frequently highlighted in ”Accelerate. The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations”, note that top (software delivery) performers are the ones who manage to improve more, and faster.
 
 ## GitLab CI/CD
+
+This hands-on workshop leverages the so-called *GitLab CI/CD*, which is their built-in Continuous Integration, Continuous Deployment, and Continuous Delivery support to build, test, and deploy your applications.
 
 ### Core concepts: jobs & stages
 
