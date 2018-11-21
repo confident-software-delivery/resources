@@ -46,12 +46,20 @@ According to the authors of *Accelerate*:
 
 ### Measuring performance
 
-In their search for measures of delivery performance, they have settled on four:
+There are four key metrics to measure software delivery performance:
 
-- Delivery lead time
-- Deployment frequency
-- Time to restore service
-- Change fail rate
+1. Delivery lead time
+2. Deployment frequency
+3. Mean Time to Restore (MTTR) service
+4. Change fail percentage
+  
+> The elevation of lead time as a metric is a key element of Lean Theory. We measured product delivery lead time as the time it takes to go from code committed to code successfully running in production.
+
+> The second metric to consider is batch size. Reducing batch size is another central element of the Lean paradigm. In software, batch size is hard to measure and communicate across contexts as there is no visible inventory. Therefore, we settled on deployment frequency as a proxy for batch size since it is easy to measure and typically has low variability.”
+  
+> Delivery lead times and deployment frequency are both measures of software delivery performance tempo. However, we wanted to investigate whether teams who improved their performance were doing so at the expense of the stability of the systems they were working on.
+
+> Traditionally, reliability is measured as time between failures. However, in modern software products and services, which are rapidly changing complex systems, failure is inevitable, so the key question becomes: how quickly can service be restored?” (and therefore our two other measures: Mean Time to Restore (MTTR) and Change Fail Percentage)
 
 ## Software delivery: the jargon
 
