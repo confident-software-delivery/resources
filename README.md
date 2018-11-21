@@ -20,6 +20,9 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 		- [How to set up a pipeline in your GitLab project?](#how-to-set-up-a-pipeline-in-your-gitlab-project)
 		- [Related GitLab documentation](#related-gitlab-documentation)
 	- [Workshop design & facilitation](#workshop-design-facilitation)
+	- [External resources](#external-resources)
+		- [Books](#books)
+		- [Websites](#websites)
 
 <!-- /TOC -->
 
@@ -99,5 +102,17 @@ This workshop has been designed to leverage the power of [Liberating Structures]
 Here you can find more information about specific structures we have used so far:
 
 - [Impromptu Networking](http://www.liberatingstructures.com/2-impromptu-networking/)
-- [TRIZ](http://www.liberatingstructures.com/6-making-space-with-triz/) mixed with [1-2-4-All](http://www.liberatingstructures.com/1-1-2-4-all/)
-- [Troika Consulting](http://www.liberatingstructures.com/8-troika-consulting/) mixed with [Wise Crowds](http://www.liberatingstructures.com/13-wise-crowds/)
+- [TRIZ](http://www.liberatingstructures.com/6-making-space-with-triz/) with [1-2-4-All](http://www.liberatingstructures.com/1-1-2-4-all/)
+- [Troika Consulting](http://www.liberatingstructures.com/8-troika-consulting/) with [Wise Crowds](http://www.liberatingstructures.com/13-wise-crowds/)
+
+## External resources 
+
+### Books
+
+- [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.com/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation ](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+
+### Websites
+
+- [Continuous Delivery](https://continuousdelivery.com/)
+- [Trunk Based Development: Introduction](https://trunkbaseddevelopment.com/)
