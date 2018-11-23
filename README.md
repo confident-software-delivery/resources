@@ -67,7 +67,7 @@ When we talk about software delivery, we're using Martin Fowler's definition: â€
 
 > **Improvements in software delivery are possible for every team and in every company**, as long as leadership provides consistent support -including time, actions and resources- demonstrating a true commitment to improvement, and as long as team members commit themselves to work.
 
-We expect you to leave this workshop with a solid understanding of key principles behind software delivery performance, hands-on experience creating and optimizing a deployment pipeline, as well as a couple of prioritized action items to put into practice back in their daily jobs. 
+We expect you to leave this workshop with a solid understanding of key principles behind software delivery performance, hands-on experience creating and optimizing a deployment pipeline, as well as a couple of prioritized action items to put into practice back in your team. 
 
 ### Performance metrics
 
