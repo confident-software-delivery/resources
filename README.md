@@ -1,18 +1,20 @@
-# Workshop: Confident Software Delivery
+# Confident Software Delivery
 
 I'm the living repository provided as companion material to the workshop “Confident Software Delivery”, so far facilitated at:
 
 - [Agile Testing Days 2018](https://agiletestingdays.com/2018/session/confident-software-delivery/) @ Berlin (November 13th, 2018).
 
-Please note that workshop participants are invited to complete several tasks on top of a web application specifically designed for this activity. Although this material isn't publicly available yet, we're happy to provide access upon request.
+![Picture @ Agile Testing Days 2018](images/cover.jpg)
 
-Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/codecoolture)) & Daniel Carral ([@dcarral](https://twitter.com/dcarral)).
+Crafted with ❤️ by Daniel Carral ([@dcarral](https://twitter.com/dcarral)) & Sergio Álvarez ([@codecoolture](https://twitter.com/codecoolture)).
+
+**Note**: workshop participants are invited to complete several tasks on top of a web application specifically designed for this activity. Although this material isn't publicly available yet, we're happy to provide access upon request.
 
 ## Table of contents
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Workshop: Confident Software Delivery](#workshop-confident-software-delivery)
+- [Confident Software Delivery](#confident-software-delivery)
 	- [Table of contents](#table-of-contents)
 	- [Abstract](#abstract)
 	- [Workshop design & facilitation](#workshop-design-facilitation)
