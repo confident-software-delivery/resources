@@ -4,7 +4,9 @@ I'm the living repository provided as companion material to the workshop “Conf
 
 - [Agile Testing Days 2018](https://agiletestingdays.com/2018/session/confident-software-delivery/) @ Berlin (November 13th, 2018).
 
-Crafted with ❤️ by @sergioalvz & @dcarral
+Please note that workshop participants are invited to complete several tasks on top of a web application specifically designed for this activity. Although this material isn't publicly available yet, we're happy to provide access upon request.
+
+Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/codecoolture)) & Daniel Carral ([@dcarral](https://twitter.com/dcarral)).
 
 ## Table of contents
 
