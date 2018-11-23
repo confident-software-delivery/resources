@@ -17,7 +17,7 @@ Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/code
 	- [Workshop abstract](#workshop-abstract)
 	- [Introduction to Software Delivery](#introduction-to-software-delivery)
 		- [What do we mean?](#what-do-we-mean)
-		- [Room for improvement](#room-for-improvement)
+		- [The moral of the story](#the-moral-of-the-story)
 		- [Measuring performance](#measuring-performance)
 	- [Software delivery: the jargon](#software-delivery-the-jargon)
 		- [Continuous Integration vs Continuous Delivery vs Continuous Deployment](#continuous-integration-vs-continuous-delivery-vs-continuous-deployment)
@@ -45,24 +45,26 @@ Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/code
 
 ### What do we mean? 
 
-After the release of the book *Accelerate* in 2018, we can assert with confidence that high IT performance correlates with strong business performance, helping to boost productivity, profitability, and market share.
+After the release in 2018 of the book *Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations*, we can assert with confidence that **high IT performance correlates with strong business performance**, helping to boost productivity, profitability, and market share.
 
-In *Accelerate*'s foreword, Martin Fowler defines IT delivery as: “**the journey from commit to production**, not the entire software development process”.
+When we talk about software delivery, we're using Martin Fowler's definition: “**the journey from commit to production**”.
 
-### Room for improvement
+### The moral of the story
 
-According to the authors of *Accelerate*:
+> **Improvements in software delivery are possible for every team and in every company**, as long as leadership provides consistent support -including time, actions and resources- demonstrating a true commitment to improvement, and as long as team members commit themselves to work.
 
-> The moral of the story, is this: **improvements in software delivery are possible for every team and in every company**, as long as leadership provides consistent support -including time, actions and resources- demonstrating a true commitment to improvement, and as long as team members commit themselves to work.
+We expect participants of this workshop to leave with a solid understanding of key principles behind software delivery performance, hands-on experience creating and optimizing a deployment pipeline, as well as a couple of prioritized action items to put into practice back in their daily jobs. 
 
 ### Measuring performance
 
-There are four key metrics to measure software delivery performance:
+There are four key metrics we should use to effectively measure software delivery performance:
 
 1. Delivery lead time
 2. Deployment frequency
 3. Mean Time to Restore (MTTR) service
 4. Change fail percentage
+
+Below you can find a brief explanation of each of them, all being excerpts from *Accelerate*:
   
 > The elevation of lead time as a metric is a key element of Lean Theory. We measured product delivery lead time as the time it takes to go from code committed to code successfully running in production.
 
