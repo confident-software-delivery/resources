@@ -14,7 +14,8 @@ Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/code
 
 - [Workshop: Confident Software Delivery](#workshop-confident-software-delivery)
 	- [Table of contents](#table-of-contents)
-	- [Workshop abstract](#workshop-abstract)
+	- [Abstract](#abstract)
+	- [Workshop design & facilitation](#workshop-design-facilitation)
 	- [Introduction to Software Delivery](#introduction-to-software-delivery)
 		- [What do we mean?](#what-do-we-mean)
 		- [The moral of the story](#the-moral-of-the-story)
@@ -24,22 +25,33 @@ Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/code
 		- [Deployment pipeline](#deployment-pipeline)
 	- [GitLab CI/CD](#gitlab-cicd)
 		- [Core concepts: jobs & stages](#core-concepts-jobs-stages)
-		- [How to set up a pipeline in your GitLab project?](#how-to-set-up-a-pipeline-in-your-gitlab-project)
+		- [How to set up a pipeline in your project?](#how-to-set-up-a-pipeline-in-your-project)
 		- [Related GitLab documentation](#related-gitlab-documentation)
-	- [Workshop design & facilitation](#workshop-design-facilitation)
 	- [External resources](#external-resources)
 		- [Books](#books)
 		- [Websites](#websites)
 
 <!-- /TOC -->
 
-## Workshop abstract 
+## Abstract 
 
 > Who doesn’t want to deliver value to their customers as soon as possible? In a world where time-to-market dictates the success or failure of many companies, confidently and quickly releasing software isn’t a competitive advantage anymore, it’s a must-have.
 
 > On this hands-on workshop, we will apply modern tools and techniques allowing developers and testers to run automated test suites, set up new testing environments with ease and automatically deliver new features and changes with confidence.
 
 > On top of that, participants will enjoy a psychologically safe space where, besides getting to know each other, they will be able to engage in healthy discussions about software delivery. 
+
+## Workshop design & facilitation
+
+This workshop has been designed to leverage the power of [Liberating Structures (LS)](http://www.liberatingstructures.com/), which can be defined as “simple rules that make it easy to include and unleash everyone in shaping the future.”
+
+Here you can find more information about the specific structures we have used so far:
+
+- [Impromptu Networking](http://www.liberatingstructures.com/2-impromptu-networking/)
+- [TRIZ](http://www.liberatingstructures.com/6-making-space-with-triz/) with [1-2-4-All](http://www.liberatingstructures.com/1-1-2-4-all/)
+- [Troika Consulting](http://www.liberatingstructures.com/8-troika-consulting/) with [Wise Crowds](http://www.liberatingstructures.com/13-wise-crowds/)
+
+Don't hesitate to get in touch if you have any questions or would like to share experiences regarding the usage of LS or any other facilitation techniques.
 
 ## Introduction to Software Delivery
 
@@ -112,7 +124,7 @@ A (deployment) **pipeline** consists of groups of **jobs** that get executed in 
 
 - [**Stages**](https://docs.gitlab.com/ee/ci/yaml/README.html#stages) allow to group jobs so they can be executed in parallel. If they all succeed, the pipeline moves on to the next stage.
 
-### How to set up a pipeline in your GitLab project?
+### How to set up a pipeline in your project?
 
 All what you need is a `.gitlab-ci.yml` file placed at the root directory of your repository to specify how the project should be built.
 
@@ -132,18 +144,6 @@ Additionally, it might be worth reading:
 
 - [Job artifacts](https://docs.gitlab.com/ee/user/project/pipelines/job_artifacts.html)
 - [Run jobs sequentially, in parallel or build a custom pipeline](https://about.gitlab.com/2016/07/29/the-basics-of-gitlab-ci/)
-
-## Workshop design & facilitation
-
-This workshop has been designed to leverage the power of [Liberating Structures](http://www.liberatingstructures.com/), which can be defined as:
-
-> Simple rules that make it easy to include and unleash everyone in shaping the future
-
-Here you can find more information about specific structures we have used so far:
-
-- [Impromptu Networking](http://www.liberatingstructures.com/2-impromptu-networking/)
-- [TRIZ](http://www.liberatingstructures.com/6-making-space-with-triz/) with [1-2-4-All](http://www.liberatingstructures.com/1-1-2-4-all/)
-- [Troika Consulting](http://www.liberatingstructures.com/8-troika-consulting/) with [Wise Crowds](http://www.liberatingstructures.com/13-wise-crowds/)
 
 ## External resources 
 
