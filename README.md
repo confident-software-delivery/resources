@@ -12,6 +12,7 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 
 - [Workshop: Confident Software Delivery](#workshop-confident-software-delivery)
 	- [Table of contents](#table-of-contents)
+	- [Workshop abstract](#workshop-abstract)
 	- [Introduction to Software Delivery](#introduction-to-software-delivery)
 		- [What do we mean?](#what-do-we-mean)
 		- [Room for improvement](#room-for-improvement)
@@ -29,6 +30,14 @@ Crafted with ❤️ by @sergioalvz & @dcarral
 		- [Websites](#websites)
 
 <!-- /TOC -->
+
+## Workshop abstract 
+
+> Who doesn’t want to deliver value to their customers as soon as possible? In a world where time-to-market dictates the success or failure of many companies, confidently and quickly releasing software isn’t a competitive advantage anymore, it’s a must-have.
+
+> On this hands-on workshop, we will apply modern tools and techniques allowing developers and testers to run automated test suites, set up new testing environments with ease and automatically deliver new features and changes with confidence.
+
+> On top of that, participants will enjoy a psychologically safe space where, besides getting to know each other, they will be able to engage in healthy discussions about software delivery. 
 
 ## Introduction to Software Delivery
 
