@@ -19,7 +19,7 @@ Crafted with ❤️ by Sergio Álvarez ([@codecoolture](https://twitter.com/code
 		- [What do we mean?](#what-do-we-mean)
 		- [The moral of the story](#the-moral-of-the-story)
 		- [Measuring performance](#measuring-performance)
-	- [Software delivery: the jargon](#software-delivery-the-jargon)
+	- [The jargon of software delivery](#the-jargon-of-software-delivery)
 		- [Continuous Integration vs Continuous Delivery vs Continuous Deployment](#continuous-integration-vs-continuous-delivery-vs-continuous-deployment)
 		- [Deployment pipeline](#deployment-pipeline)
 	- [GitLab CI/CD](#gitlab-cicd)
@@ -74,31 +74,23 @@ Below you can find a brief explanation of each of them, all being excerpts from 
 
 > Traditionally, reliability is measured as time between failures. However, in modern software products and services, which are rapidly changing complex systems, failure is inevitable, so the key question becomes: how quickly can service be restored?” (and therefore our two other measures: Mean Time to Restore (MTTR) and Change Fail Percentage)
 
-## Software delivery: the jargon
+## The jargon of software delivery
 
 ### Continuous Integration vs Continuous Delivery vs Continuous Deployment
 
-- Continuous Integration (CI)
+- **Continuous Integration (CI)**: “Development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early“ (from  https://www.thoughtworks.com/continuous-integration).
 
-  > “Development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.“
+- **Continuous Delivery (CD)**: “Software development discipline where you build software in such a way that it can be released to production at any time” (from https://martinfowler.com/bliki/ContinuousDelivery.html)
 
-  \+ info @ https://www.thoughtworks.com/continuous-integration
-
-- Continuous Delivery (CD)
-
-  > “Software development discipline where you build software in such a way that it can be released to production at any time.“
-
-  \+ info @ https://martinfowler.com/bliki/ContinuousDelivery.html
-
-- Continuous Deployment
+- On the other hand, **Continuous Deployment**: 
 
   > Sometimes confused with Continuous Delivery, it means that every change goes through the pipeline and automatically gets put into production, resulting in many production deployments every day.
 
   > Continuous Delivery just means that you are able to do frequent deployments but may choose not to do it, usually due to businesses preferring a slower rate of deployment.
 
-  \+ info @ https://martinfowler.com/bliki/ContinuousDelivery.html
+  from https://martinfowler.com/bliki/ContinuousDelivery.html.
 
-Besides the key differences between them, they all have something they need to exist: **automation**.
+Please note that, besides the aforementioned differences between them, they all have something they need to exist: **automation**.
 
 ### Deployment pipeline
 
