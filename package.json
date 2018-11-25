@@ -1,6 +1,9 @@
 {
   "name": "resources",
   "description": "Companion material to the workshop Confident Software Delivery",
+  "scripts": {
+    "lint": "markdownlint *.md"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/confident-software-delivery/resources.git"
