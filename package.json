@@ -2,7 +2,9 @@
   "name": "resources",
   "description": "Companion material to the workshop Confident Software Delivery",
   "scripts": {
-    "lint": "markdownlint *.md"
+    "lint": "npm run lint:markdown && npm run lint:grammar",
+    "lint:grammar": "write-good *.md",
+    "lint:markdown": "markdownlint *.md"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   },
   "homepage": "https://github.com/confident-software-delivery/resources#readme",
   "devDependencies": {
-    "markdownlint-cli": "^0.13.0"
+    "markdownlint-cli": "^0.13.0",
+    "write-good": "^0.13.1"
   }
 }
