@@ -27,6 +27,7 @@
   "homepage": "https://github.com/confident-software-delivery/resources#readme",
   "devDependencies": {
     "markdownlint-cli": "^0.13.0",
+    "prettier": "^1.15.2",
     "write-good": "^0.13.1"
   }
 }
