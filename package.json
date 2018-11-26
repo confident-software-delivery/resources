@@ -1,0 +1,33 @@
+{
+  "name": "resources",
+  "description": "Companion material to the workshop Confident Software Delivery",
+  "scripts": {
+    "lint": "npm run lint:markdown && npm run lint:grammar",
+    "lint:grammar": "write-good *.md",
+    "lint:markdown": "markdownlint *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/confident-software-delivery/resources.git"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Carral",
+      "url": "https://twitter.com/dcarral"
+    },
+    {
+      "name": "Sergio Álvarez",
+      "url": "https://twitter.com/codecoolture"
+    }
+  ],
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/confident-software-delivery/resources/issues"
+  },
+  "homepage": "https://github.com/confident-software-delivery/resources#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.13.0",
+    "prettier": "^1.15.2",
+    "write-good": "^0.13.1"
+  }
+}
